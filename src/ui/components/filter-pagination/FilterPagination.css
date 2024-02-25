@@ -1,0 +1,47 @@
+@import url('../../../style/colors.css');
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+#pagination-button-previous {
+  transform: scale(-1, 1);
+}
+
+.pagination__list {
+  display: flex;
+}
+
+.pagination__item {
+  margin-left: 6px;
+}
+
+.pagination__item:last-child {
+  margin-right: 6px;
+}
+
+.pagination_selected {
+  border-radius: 50%;
+  background-color: var(--main-accent-color);
+  color: var(--main-bg-color);
+}
+
+.pagination__button,
+.pagination-main-button {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+
+  border: none;
+  background-color: inherit;
+  border-radius: 50%;
+}
+
+.pagination-main-button {
+  margin: 0px 20px;
+}
+
+.pagination__button:hover {
+  border: 1px solid var(--main-text-color);
+}

@@ -1,0 +1,13 @@
+@import url('./sizes');
+
+:root {
+  --main-bg-color: #fff;
+  --main-accent-color: #4caf50;
+  --additional-accent-color: #ff9800;
+  --additional-accent-color2: #ff990070;
+  --main-text-color: #424242;
+  --main-headings-color: #000;
+  --main-box-shadow-color: rgba(0, 0, 0, 0.05);
+
+  --main-box-shadow: var(--main-box-shadow-size) var(--main-box-shadow-color);
+}

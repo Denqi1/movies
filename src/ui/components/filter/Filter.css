@@ -1,0 +1,73 @@
+@import url('../../../style/colors.css');
+
+#filter {
+  position: absolute;
+
+  top: 112px;
+  left: 12px;
+
+  min-width: 220px;
+
+  -webkit-box-shadow: var(--main-box-shadow);
+  -moz-box-shadow: var(--main-box-shadow);
+  box-shadow: var(--main-box-shadow);
+}
+
+.filter-container {
+  padding: 24px;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 38px;
+}
+
+.filter-header__title {
+  color: var(--main-headings-color);
+}
+
+.filter-header__button-close {
+  width: 35px;
+  height: 35px;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.filter-header__button-close img {
+  width: 20px;
+  height: 20px;
+}
+
+.filter-sort-form {
+  margin-bottom: 360px;
+}
+
+.filter-sort-general {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 38px;
+  width: 320px;
+}
+
+.filter-sort-general label {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.filter-sort-general__select {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--main-accent-color);
+  cursor: pointer;
+}
+
+.filter-sort-genres__item input {
+  cursor: pointer;
+  margin: 8px;
+}
+
+.filter-sort-genres__item label {
+  cursor: pointer;
+}

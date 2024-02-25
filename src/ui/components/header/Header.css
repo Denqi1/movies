@@ -1,0 +1,28 @@
+@import url('../../../style/colors.css');
+
+#header-section {
+  box-shadow: var(--main-box-shadow);
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+}
+
+.movies-header__button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.movies-header__button:hover {
+  border-bottom: 1px solid var(--additional-accent-color);
+  transition: all .3s ease-in-out;
+}
+
+.movies-header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.movies-header__title {
+  color: var(--main-headings-color);
+}
